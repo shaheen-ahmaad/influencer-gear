@@ -1,0 +1,186 @@
+/* hero area css start  */
+.hero-area{
+    display: flex;
+}
+.left-side{
+    margin-left: 80px;
+}
+
+.hero-title{
+    color: #3A3A3A;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.hero-text{
+    color: #3A3A3A;
+    font-weight: 20px;
+    font-weight: 500;
+}
+
+.hero-btn{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background: #E02C6D;
+    font-size: 25px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    text-align: center;
+    
+}
+
+span .fa-arrow-right{
+    font-size: 15px;
+}
+
+.right-side{
+    margin-top: 50px;
+    margin-left: 300px;
+    position: relative;
+}
+
+.right-side img{
+    width: 400px;
+    position: absolute;
+    bottom: -70px;
+}
+
+/* hero area css end */
+
+/* ecommerce area css start  */
+
+.ecommerce-area{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.ecommerce-brands a{
+    margin-left: 30px;
+}
+
+hr{
+    width: 65%;
+}
+
+/* ecommerce area css end */
+
+/* product area css start  */
+
+.product-title{
+    margin-top: 70px;
+    margin-left: 80px;
+    color: #3A3A3A;
+    font-weight: 700;
+    text-align: center;
+}
+
+.product-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 100px;
+}
+
+.product-item{
+    width: 350px;
+    height: 500px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid#ddd;
+    border-radius: 20px;
+}
+
+.product-item img{
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.product-details{
+    margin-top: -10px;
+    margin-left: 25px;
+}
+
+.ratings{
+    margin-top: -10px;
+}
+
+.product-price{
+    margin-top: -10px;
+}
+
+.fa-star, .fa-star-half-stroke {
+    font-size: 12px;
+    margin-top: -10px;
+    color: goldenrod;
+} 
+
+/* product area css end */
+
+
+/* feature products css start  */
+
+.feature-product{
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.feature-header{
+    color: #3A3A3A;
+    font-weight: 700;
+}
+
+.feature-text{
+    color: #3A3A3A;
+    font-weight: 500;
+}
+
+.feature-btn{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #E02C6D;
+    border: none;
+}
+
+
+/* feature products css end */
+
+
+/* footer css start  */
+
+footer{
+    margin-top: 100px;
+    background-color: #0A0826;
+}
+
+
+.footer-top{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.footer-title{
+    color: white;
+}
+.footer-text{
+    color: white;
+}
+
+.social-media-links{
+    color: white;
+    text-align: center;
+}
+
+.social-media-links a{
+    
+    margin-left: 10px;
+}
+/* footer css end */
+
+
